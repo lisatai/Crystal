@@ -1,63 +1,83 @@
 
-.diamond {
-    width: 90px;
-    height: 90px;
-    background: #1eff00;
-    margin: 0;
-    padding: 0;
-/* Rotate */
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-/* Rotate Origin */
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-    margin: 60px 0 10px 310px;
+
+body{
+    color: #777777;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
-#red {
-    color: #fff;
-    background-color: #d9534f;
-    border-color: #d9534f;
-}
-#blue {
-    color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de;
-}
-#yellow {
-    color: #fff;
-    background-color: #f0ad4e;
-    border-color: #f0ad4e;
-}
-#green {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+.place{
+    border-top:3px solid #cccccc;
+    border-bottom: 3px solid #4aaaa5;
+    margin-bottom: 0px;
 }
 
-#red {
-    color: #fff;
-    background-color: #d9534f;
-    border-color: #d9534f;
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+    width: 350px;
+    text-align: center;
+    font-size: 30px;
 }
-#blue {
-    color: #fff;
-    background-color: #5bc0de;
-    border-color: #5bc0de;
+
+
+.content{
+    background: #ffffff;
+    padding:10px;
+
 }
-#yellow {
-    color: #fff;
-    background-color: #f0ad4e;
-    border-color: #f0ad4e;
+
+
+.content h2{
+    padding:10px;
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
 }
-#green {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+
+.game-content{
+    text-align: center;
+    color:#000000;
+}
+
+.game{
+    margin-top: 10%;
+}
+
+
+.crystal-game{
+    color:#191970;
+    }
+    
+    .total{
+        font-size: 40px;
+        background: #191970;
+        color: #ffffff;
+        padding: 10px;
+       
+    }
+    
+    .crystals{
+        padding:5px;
+    }
+    
+    .crystal-game h2{
+        color:#191970;
+    }
+    
+    .score{
+        font-size:25px;
+       
+    }
+
+
+@media screen and (max-width: 980px) {
+    .crystals img{
+        width: 75px;
+        height:75px;
+    }
+       
 }
